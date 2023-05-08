@@ -1,0 +1,134 @@
+html {
+	background-color: #282a36;
+	color: #fbfbfb;
+}
+body {
+ 	margin: auto;
+	text-align: center;
+	font-family: Verdana;
+ }
+ /* header sec*/
+header {
+	background-color: #44424232;
+	color: #fbfbfb;
+	padding: 10px;
+	text-align: center;
+	border-bottom: 2px double #000000dc;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.header-button {
+	background-color: #8d3cab;
+	border: none;
+	color: white;
+	padding: 12px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px; 
+	cursor: pointer; 
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px #888888; 
+}
+.header-button:hover{
+	background-color: #c72eff;
+}
+.header-button:active{
+	background-color: #ff0062;
+}
+/* main sec*/
+.title {
+	background-color: #8d3cab;
+	text-align: center;
+	border-style: dotted;
+	border-color: #121212;
+	border-radius: 16px;
+	border-width: medium;
+	margin: auto;
+	width: 200px;
+}
+nav a {
+	color: #8d3cab;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: bold;
+}
+h1 {
+	font-size: 32px;
+	font-family: sans-serif;
+	font-weight: bold;
+	line-height: normal;
+	text-align: center;
+	text-decoration: none;
+}
+h2{
+	font-size: 26px;
+}
+.grid-container {
+	width: 60%;
+	display: grid;
+	grid-template-columns: 100px 100px 1fr;
+	grid-gap: 1px;
+	background-color: #8d3cab;
+	padding: 10px;
+	text-align: center;
+	margin: auto;
+	border: 2px solid grey;
+	border-radius: 5px;
+	box-shadow: 3px 3px 3px #8080808e;
+	position: relative;
+	box-sizing: border-box;
+}
+  
+.grid-container div {
+	padding: 0px;
+	margin: 0px;
+	border-bottom: 1px solid grey;
+}
+  
+  .grid-container h3 {
+	text-align: center;
+	line-height: 75px;
+}
+  .grid-container p {
+	font-size: 18px;
+	text-align: center;
+	margin: auto;
+	padding: 20px 5px;
+	width: 90%;
+}
+.icon {
+	width: 75px;
+	height: 75px;
+	margin: 25px 0px;
+	padding: 0px 0px;
+}
+.hitem {
+	opacity: 0;
+	transition: opacity 1s linear;
+}
+.hitem:hover{
+	opacity: 1;
+}
+.hitem2 {
+	opacity: 0;
+	transition: opacity 1s linear;
+}
+.hitem2:hover {
+	opacity: 1;
+}
+.hitem3 {
+	opacity: 0;
+	transition: opacity 1s linear;
+}
+.hitem3:hover {
+	opacity: 1;
+} 
